@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "BuscarDadosReceita";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>BuscarDadosReceita</h2>
+
+<form action="/Clientes/BuscarDadosReceita" method="post">
+        <div class="form-group">
+            <label class="control-label col-md-2" for="CNPJ">CNPJ</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="CNPJ" name="CNPJ" type="text" value="">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default">
+            </div>
+        </div>
+    </div>
+</form>
